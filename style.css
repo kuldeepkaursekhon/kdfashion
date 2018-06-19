@@ -1,0 +1,174 @@
+
+}/* the styles for the elements */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color:white;
+}
+body {
+    padding:20px;
+	font-family: verdana,Arial, Geneva, Arial Black;
+    font-size: 100%;
+	Width: 1000px;
+    margin: 0 auto;
+    border: 3px solid #931420; 
+	background-attachment: fixed;
+	border-radius: 10px;
+    background-color:beige;
+
+}
+a
+{
+    text-decoration: none;
+    background-color:cadetblue;
+    color:white;    
+}
+a:focus, a:hover {
+	font-style: italic;
+}
+/* the styles for the header */
+header {
+	padding: 1.5em 0 2em 0;
+	border-bottom: 3px solid #931420;
+	 background: -webkit-linear-gradient(left, 	#8FBC8F, #E9967A);
+    
+	
+	}
+
+header 	img 
+{
+	float:Left;
+	padding: 1em;
+    width: 250px;
+    height: 100px;
+   
+	
+}
+header h2 {
+	font-size: 170%;
+    color: #ff751a;
+    
+	
+}
+main h1 {
+	font-size: 150%;
+	color: #4d1a00;
+	padding-top: 0.3em; 
+	padding-bottom: 0.3em;
+	}
+	
+#lines{
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+
+	}
+
+
+
+main h2
+{
+   font-size: 130%;
+   color: #ff751a;
+   padding: 0.5em 0 0.25em;
+}
+
+main h3{
+	font-size: 105%;
+	padding: 0.25em;
+}
+
+header h3 {
+	font-size: 130%;
+	font-style: italic;
+	color: #4d1a00;
+	}
+
+
+ 
+footer {
+	margin-top: 2em;
+	padding: .7em;
+}
+footer p
+{
+	background: -webkit-linear-gradient(left, 	#8FBC8F, #E9967A);
+	font-size: 100%;
+	color: white;
+	text-align: center;
+	padding: 10px;
+}
+
+/* this is my menu bar style */
+#menu_bar
+{
+    margin: -10px auto 0px;
+    text-align: center;
+    margin-left: 90px;
+    
+}
+
+    #menu_bar ul
+    {
+        list-style: none;
+        position: relative;
+        text-align-last: center;
+    }   
+    #menu_bar ul li 
+    {
+        float:left;
+        padding:10px 0px;
+        background-color:aquamarine;
+
+    }
+    #menu_bar ul ul
+    {
+       position: absolute;
+        top:100%;
+        display: none;
+ 
+    }
+    #menu_bar ul ul li
+    {
+        float:none;
+    }
+    #menu_bar ul li:hover > ul
+    {
+        display: block;
+    }
+    #menu_bar > ul::after 
+    {
+        content:"";
+        display: block;
+        clear:both;
+    }
+    #menu_bar a
+    {
+        font-style: normal;
+        color:white;
+        text-decoration: none;
+        padding:10px 30px;
+        background-color: aquamarine;
+        font-size: 14px;
+        
+
+    }
+    #menu_bar a:hover
+    {
+        background-color:gray;
+
+    }
+#signup
+{
+    font-family:sans-serif;
+    font-size: 20px;
+    color: cadetblue;
+    column-count: 3;
+   
+}
+#login
+{
+    float: right;
+    margin-bottom: 60px;
+}
